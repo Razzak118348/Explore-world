@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600&family=Merriweather:wght@400;700;900&family=Mulish:wght@400;600;700;800&family=Open+Sans:ital,wght@0,700;0,800;1,700&family=Work+Sans:wght@400;600;700&display=swap');
+
+/* for all  */
+*{
+    font-family: Mulish;
+}
+header, main {
+    margin: 3rem 8rem 3rem 8rem ;
+}
+
+button{
+    background-color: #FF5400;
+   text-align: center;
+  padding-bottom:0.8rem ;
+}
+
+/* header section style  */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    /* horyzontal center e niye aste hole nicher commund*/
+    align-items: center;
+    margin-bottom: 3rem;
+
+}
+
+
+.hero_travel{
+    display: flex;
+    gap:17px;
+    align-items: center;
+    justify-content: center;
+    
+}
+nav img{
+    width: 3rem;
+height: 3.4rem;
+
+}
+.frem{
+    display: none;
+}
+.hero_travel h3{
+    color: #131318;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+#travel{
+    color: #FF5400;   
+}
+#home{
+    font-weight: 700;
+    color: #FF5400;  
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 2.8rem;
+}
+nav li a{
+    text-decoration: none;
+}
+
+/* explore travel style  */
+
+.banner_description{
+    text-align: center;
+    background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+    
+    background-repeat: no-repeat;
+    /* width:100%; */
+height: 40rem;
+border-radius:1rem;
+background-size: 100%;
+/* background: linear-gradient(180deg, rgba(32, 32, 40, 0.8) 0%, rgba(19, 19, 24, 0.00) 100%); */
+
+
+}
+.banner_description h3{
+    color: #FFF;
+font-size: 4rem;
+font-weight: 800;
+padding-top:  8rem ;
+}
+.banner_description p{
+    width: 45rem;
+    color: #FFF;
+text-align: center;
+font-size: 1rem;
+font-weight: 400;
+margin-left: 20rem;
+margin-bottom: 3rem;
+}
+.banner_input{
+  
+    align-items: flex-start;
+    gap: 1.8rem;
+    display: inline-flex;
+    justify-content: center;
+padding: 1rem;
+border-radius: 8px;
+background: rgba(233, 223, 223, 0.3);
+margin:3rem 11.5rem 6.6rem 11.5rem;
+
+}
+.putting_section{
+    width: 10.5rem;
+height: 3.2rem;
+border-radius: 8px;
+background: #FFF;
+color: rgba(19, 19, 24, 0.50);
+text-align: left;
+font-size: 1rem;
+font-weight: 400;
+border: none;
+
+}
+.primary-btn{
+    background-color: #FF5400;
+   text-align: center;
+  padding-bottom:0.8rem ;
+  gap: 0.5rem;
+}
+.putting_section> img{
+    width: 1.8rem;
+
+}
+
+
+
+@media screen and (max-width:600px) {
+    /* .nav{
+        flex-direction: column;
+        
+    } */
+    header,main{
+        margin:1rem 1.3rem 1rem 1.3rem;
+    }
+    .nav{
+        display: flex;
+        margin-bottom: 0;
+        justify-content: space-between;
+    }
+    .frem{
+        display: inline;
+    }
+    .nav>ul{
+        display: none;
+    }
+    nav img{
+        width: 2rem;
+        height: 2rem;
+    }
+   .hero_travel h3{
+    font-size: 2rem;
+   }
+   .banner_description{
+    width:auto;
+    height: auto;
+background-size: auto;
+
+
+}
+.banner_description h3{
+    padding-top:0;
+    font-size: 1.2rem;
+    color: bisque;
+}
+.banner_description p{
+    color: #FFF;
+text-align: center;
+font-size: 1rem;
+margin-left: 1rem;
+margin-bottom: 1rem;
+width: 22rem;
+
+}
+    .banner_description,.banner_input{
+        display: flex;
+        flex-direction: column;
+    }
+}

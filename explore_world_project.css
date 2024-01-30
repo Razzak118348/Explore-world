@@ -7,6 +7,9 @@
 header, main {
     margin: 3rem 8rem 3rem 8rem ;
 }
+button:hover{
+   cursor: pointer;
+}
 
 .primary-btn{
     background-color: #FF5400;
@@ -110,7 +113,7 @@ margin-bottom: 3rem;
 .banner_input{
   
     align-items: flex-start;
-    gap: 1.8rem;
+    gap: 1.5rem;
     display: inline-flex;
     justify-content: center;
 padding: 1rem;
@@ -118,6 +121,7 @@ border-radius: 8px;
 background: rgba(233, 223, 223, 0.3);
 margin-left: 21%;
 margin-top: 7%;
+height: 7.56%;
 
 }
 .putting_section{
@@ -407,6 +411,7 @@ margin-bottom: 8rem;
     }
 
    .banner_description,
+   .banner_input,
    .banner_input.card_row2,
    .newsletter{
     flex-direction: column;
@@ -466,6 +471,7 @@ width: 22rem;
 .banner_input{
 width: 80%;
 margin-left: 1.4rem;
+height: auto;
 }
 .putting_section{
     width: 100%;
